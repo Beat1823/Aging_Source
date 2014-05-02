@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Aging_Source.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{B1FD8EE8-1DC2-4BD0-992E-E189538B45FF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Aging_Source.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Aging_SourceEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{F4FEEB8D-9AED-4239-BD23-6D4F8FB2E914}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Aging_Source">
+			<UniqueIdentifier>{51FDB369-4F89-44F6-AF76-061A3FCD11A7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Aging_Source\Aging_Source.Build.cs">
+			<Filter>Source\Aging_Source</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Aging_Source\Aging_Source.cpp">
+			<Filter>Source\Aging_Source</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Aging_Source\Aging_Source.h">
+			<Filter>Source\Aging_Source</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Aging_Source\Aging_SourceCharacter.cpp">
+			<Filter>Source\Aging_Source</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Aging_Source\Aging_SourceCharacter.h">
+			<Filter>Source\Aging_Source</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Aging_Source\Aging_SourceGameMode.cpp">
+			<Filter>Source\Aging_Source</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Aging_Source\Aging_SourceGameMode.h">
+			<Filter>Source\Aging_Source</Filter>
+		</ClInclude >
+		<Filter Include="Source\Aging_Source\Resources">
+			<UniqueIdentifier>{CF5457A5-E91C-4066-BB9D-F5AA0A6C8189}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Aging_Source\Resources\Windows">
+			<UniqueIdentifier>{EECB019B-1715-4192-B9A0-70AA0056C2C1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Aging_Source\Resources\Windows\Aging_Source.ico">
+			<Filter>Source\Aging_Source\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\Aging_Source\Resources\Windows\Aging_Source.rc">
+			<Filter>Source\Aging_Source\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
